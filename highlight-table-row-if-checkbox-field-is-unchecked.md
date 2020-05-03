@@ -13,4 +13,5 @@ $j(function() {
     $j('.tablename-fieldname').find('.glyphicon-check').parents('tr').addClass('warning')
 })
 ```
+
 Replace `tablename` and `fieldname` in the above code with the name of the table and the checkbox field, respectively.
