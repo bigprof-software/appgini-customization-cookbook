@@ -9,9 +9,11 @@ You have a table in your AppGini app that includes a checkbox field. In the tabl
 ### hooks/footer-extras.php
 
 ```
-$j(function() {
+<script>
+  $j(function() {
     $j('.tablename-fieldname').find('.glyphicon-check').parents('tr').addClass('warning')
-})
+  })
+</script>
 ```
 
 Replace `tablename` and `fieldname` in the above code with the name of the table and the checkbox field, respectively.
