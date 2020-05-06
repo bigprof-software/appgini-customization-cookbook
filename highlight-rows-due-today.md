@@ -24,4 +24,4 @@ $j(function() {
   })
 })
 ```
-In the above query, replace `due_date` with the actual name of the due date field and `tablename` with the actual table name.
+In the above code, replace `due_date` with the actual name of the due date field and `tablename` with the actual table name.
