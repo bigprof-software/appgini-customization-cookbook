@@ -12,19 +12,21 @@ $j(function() {
   // Run this code only if this is a new record
   if($j('[name=SelectedID]').val().length) return;
 
-  $j.ajax({
-	  url: 'ajax_combo.php',
-    data: {
-      s: '',
-      p: 1,
-      t: 'tablename',
-      f: 'lookup_fieldname'
-    },
-    success: function(data) {
-      if(data.results.length < 2) return;
-      $j('#lookup_fieldname-container').select2('data', data.results[1]);
-    }
-  })
+  setTimeout(function() {
+    $j.ajax({
+      url: 'ajax_combo.php',
+      data: {
+        s: '',
+        p: 1,
+        t: 'tablename',
+        f: 'lookup_fieldname'
+      },
+      success: function(data) {
+        if(data.results.length < 2) return;
+        $j('#lookup_fieldname-container').select2('data', data.results[1]);
+      }
+    })
+  }, 1000); // this delay might be necessary to ensure all select2 is loaded first
 })
 ```
 
