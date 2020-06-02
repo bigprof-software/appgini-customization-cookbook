@@ -10,10 +10,12 @@ If the file doesn't exist, create it.
 
 ```
 $j(function() {
-   $j('.table_view .alert-warning').replaceWith('<div>This search term was not found!</div>');
+   $j('.table_view .alert-warning').replaceWith(
+      '<div style="max-width: 90vw; white-space: normal;">This search term was not found!</div>'
+   );
 })
 ```
-In the above code, replace `<div>This search term was not found!</div>` with the
+In the above code, replace `This search term was not found!` with the
 desired HTML code to display.
 
 ## Notes
