@@ -17,7 +17,7 @@ This recipe tells you how to hide it.
 
 ```
 <script>
-    $j(function() { $j('#customers_add_new).remove(); })
+    $j(function() { $j('#customers_add_new').remove(); })
 </script>
 ```
 
