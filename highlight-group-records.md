@@ -98,6 +98,6 @@ And add the following code to the `hooks/footer-extras.php` file (this is the cl
         })
       }
     })
-	})
+})
 </script>
 ```
