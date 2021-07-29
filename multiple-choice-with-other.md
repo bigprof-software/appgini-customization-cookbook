@@ -47,6 +47,7 @@ as multiple choice fields.
 Here, we'll define the JavaScript function `AppGini.textToOptions()` that we used above, like this:
 
 ```js
+<script>
 AppGini.textToOptions = function(fn, options, otherLabel) {
 	var inp = $j('#' + fn);
 	if(!inp.length) return;
@@ -122,4 +123,5 @@ AppGini.textToOptions = function(fn, options, otherLabel) {
 
 	updateOtherUI();
 }
+</script>
 ```
