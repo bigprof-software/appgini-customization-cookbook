@@ -1,4 +1,4 @@
-# Display a multiple choice field that include an 'Other' user-provided option
+# Display a multiple choice field that includes an 'Other' user-provided option
 
 ## Purpose of this recipe
 
