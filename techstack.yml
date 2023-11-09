@@ -1,0 +1,18 @@
+repo_name: bigprof-software/appgini-customization-cookbook
+report_id: f05c94e7e63c40a4e15ab8a5e757d937
+repo_type: Public
+timestamp: '2023-11-09T11:25:28+00:00'
+requested_by: bigprof
+provider: github
+branch: master
+detected_tools_count: 1
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
