@@ -1,7 +1,8 @@
 repo_name: bigprof-software/appgini-customization-cookbook
 report_id: f05c94e7e63c40a4e15ab8a5e757d937
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T11:25:28+00:00'
+timestamp: '2024-01-04T14:52:59+00:00'
 requested_by: bigprof
 provider: github
 branch: master
@@ -15,4 +16,5 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/bigprof-software/appgini-customization-cookbook
   detection_source: Repo Metadata
